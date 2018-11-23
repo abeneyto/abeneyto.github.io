@@ -1,0 +1,120 @@
+@font-face {
+font-family: roboto;
+src: url('fuentes/Roboto-Light.ttf');
+font-family: bebas;
+src: url('fuentes/BebasNeue-Regular.ttf');
+}
+html, body {
+height: 90%;
+width: 100%;
+background-image: url('imagenes/fondo.png');
+background-size: 100%;
+}
+* {
+font-family: roboto;
+margin: 0%;
+/*border: solid red 2px;*/
+}
+header {
+  width: 100%;
+  height: 28%;
+}
+.logo {
+  width: 14%;
+  height: 85%;
+}
+.cajalogo{
+  margin-top: 13%;
+  margin-left: 10%;
+  width: 100%;
+  height: 100%;
+}
+main {
+  overflow: hidden;
+  width: 100%;
+  height: 95%;
+  position: relative;
+}
+.saludo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  background-color: black;
+  height: 110%;
+  z-index: 100;
+  position: absolute;
+  transition: left 1s;
+  -webkit-transition: left 1s;
+}
+.textsaludo{
+  width: 90%;
+  height: 90%;
+}
+#hsaludo{
+  font-family: 'Raleway Dots', cursive;
+  font-weight: lighter;
+  color: white;
+  font-size: 130px;
+}
+.flechas{
+  position: relative;
+  left: 2.3%;
+  width: 12%;
+  height: 15%;
+  background-color: black;
+  border-radius: 40%;
+  opacity: 0.6;
+}
+.slideizk{
+  position: absolute;
+  width: 12%;
+  top: 33%;
+  left: 83%;
+}
+.slideder{
+  position: absolute;
+  width: 12%;
+  top: 52%;
+  left: 83%;
+}
+#slider:target ~ .saludo-container{
+  left: 0%;
+}
+#slider1:target ~ .saludo-container{
+  left: -48%;
+}
+#slider-button{
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  display: inline-block;
+  height: 2%;
+  width: 2%;
+}
+#slider-button1{
+  position: absolute;
+  top: 48%;
+  left: 100%;
+  display: inline-block;
+  height: 2%;
+  width: 2%;
+}
+.secprincipal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.sec{
+    width: 49%;
+    height: 100%;
+}
+.cajaizq{
+  width: 100%;
+  height: 100%;
+}
+.cajadere{
+  width: 100%;
+  height: 100%;
+}
