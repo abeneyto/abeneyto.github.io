@@ -5,52 +5,171 @@
     <link rel="icon"
       type="image/png"
       sizes="16x16"
-      href="imagenes/iconpn.png">
-      <!--fuentes-->
-      <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet">
+      href="imagenes/iconb.png">
       <!--style-->
     <link rel="stylesheet" type="text/css" href="estiloindex.css">
     <meta charset="UTF-8">
-    <title>AlvaroBeneyto</title>
+    <title>Alvaro Beneyto</title>
 
   </head>
   <body>
+    <span id="slider"></span>
+    <span id="slider1"></span>
+    <div class="granslide">
+        <a href="#slider1" id="slidercom1"></a>
+    </div>
     <header>
       <!--capa saludo-->
-      <span id="slider"></span>
-      <span id="slider1"></span>
+
       <div class="saludo-container">
         <div class="textsaludo">
           <h1 id="hsaludo">Alvaro Beneyto</h1>
+          <h1 id="hsaludo1">Software Developer & Design</h1>
         </div>
+        <article class="txtsalud">
+          <h6 class="txtsaludo">Diseñador y desarrollador de software, estudiante
+          de ciclo superior, DAM en <br>U-tad. Creativo, inquieto por las nuevas tecnologias y en busca
+          nuevos retos.</h6>
+        </article>
+        <article id="data">
+          <h3 class="txtsaludo">          16/03/95 <br>
+                    Spain, Madrid</h3>
+        </article>
         <div class="flechas">
-          <img class="slideizk" src="imagenes/slide.png" alt="slide izquierda">
           <img class="slideder" src="imagenes/slide1.png" alt="slide derecha">
         </div>
           <div class="button-container">
             <a href="#slider" id="slider-button"></a>
-            <a href="#slider1" id="slider-button1"></a>
           </div>
-      </div>
-      <!--logo superior-->
-        <div class="logo">
-          <img class="cajalogo" src="imagenes/caja.png" alt="logo web">
-        </div>
-
+    </div>
     </header>
-    <main>
+    <main id="cuerpo">
+    <!--logo superior-->
+      <nav class="cabeza">
+        <div class="logo">
+          <a href="https://abeneyto.github.io/">
+        <img class="logofoto" src="imagenes/logo1.png" alt="logo web"></a>
+        </div>
+        <section class="nombre">
+          <h3 class="nombretxt">Alvaro Beneyto</h3>
+          <h3 class="nombretxt" id="subnombre">Software Developer & Design</h3>
+
+        </section>
+        <div class="enlaces">
+          <a href="https://www.linkedin.com/in/%C3%A1lvarobeneytohurtado/">
+            <img class="picenlace" src="imagenes/lk.png" alt="Linkedin" /></a>
+          <a href="https://github.com/abeneyto">
+            <img class="picenlace" src="imagenes/github.png" alt="Github" /></a>
+          <a href="https://stackoverflow.com/users/story/10735655">
+            <img class="picenlace" src="imagenes/so.png" alt="StackOverflow" /></a>
+          <a href="https://www.behance.net/alvarobene1643">
+            <img class="picenlace" src="imagenes/be.png" alt="Behance" /></a>
+
+        </div>
+      </nav>
     <!--secciones principales-->
-    <section class="secprincipal">
+    <div class="secprincipal">
       <section class="sec">
-      <img class="cajaizq" src="imagenes/caja.png" alt="trabajos">
-    </section>
-    <section class="sec">
-      <img class="cajadere" src="imagenes/caja.png" alt="habilidades">
-    </section>
-    </section>
+        <h6 id="work">PORTFOLIO</h6>
+        <div class="containertrabajos">
+          <div class="containerhover" id="webhid">
+            <a href="portfolioweb.html">
+          <section class="trabajos" id="secdesign">
+            <h3 class="titulodesign">WEB</h3>
+            <h3 class="design">DESIGN</h3>
+          </section></a>
+        </div>
+        <div class="containerhover" id="designhid">
+            <a href="portfoliodis.html">
+          <section class="trabajos" id="secweb">
+            <h3 class="titulodesign">GRAPHIC</h3>
+            <h3 class="design">DESIGN</h3>
+          </section></a>
+          </div>
+
+          <div class="containerhover" id="codehid">
+              <a href="https://github.com/abeneyto">
+          <section class="trabajos" id="seccode">
+            <h3 class="titulodesign" id="titulosoft">SOFTWARE DEVELOPMENT</h3>
+          </section></a>
+          </div>
+        </div>
+      </section>
+    <div class="sec1">
+    <div class="cv">
+    <div class="botons">
+      <label for="buton1"></label>
+      <label for="buton2"></label>
+      <label for="buton3"></label>
+      </div>
+
+<!--PRIMER LABEL EMPIEZA ACTIVA, APARECE LA PRIMERA SEC, con checked-->
+      <input id="buton1" type="radio" name="butons" checked>
+        <section class="buton buton1">
+        <h3 class="titudere"><b>HABILIDADES</b>/SKILLS</h3>
+        <div class="pictures">
+          <img class="skfoto" src="imagenes/ai.png" alt="illustrator">
+          <img class="skfoto" src="imagenes/ps.png" alt="photoshop">
+          <img class="skfoto" src="imagenes/id.png" alt="indesign">
+          <img class="skfoto" src="imagenes/sql.png" alt="sql">
+          <img class="skfoto" src="imagenes/java.png" alt="java">
+          <img class="skfoto" src="imagenes/git.png" alt="git">
+          <img class="skfoto" src="imagenes/htmlcss.png" alt="html css">
+          <img class="skfoto" src="imagenes/office.png" alt="microsoft office">
+        </div>
+        <div class="pictures2">
+          <img id="skfoto1" src="imagenes/ingles.png" alt="ingles">
+          <img id="skfoto2" src="imagenes/spano.png" alt="espanol">
+        </div>
+        <div class="circulo" id="circulo1">
+        </div>
+        </section>
+        </div>
+      <input id="buton2" type="radio" name="butons">
+        <section class="buton buton2">
+          <h3 class="titudere"><b>FORMACIÓN</b>/EDUCATION</h3>
+          <div class="circulo" id="circulo2">
+          </div>
+            <div class="pictures3">
+              <article class="txt1">
+                <h6 class="titultext">URJC</h6>
+                <p class="parraf">Tras bachillerato y la PAU, decidí comenzar
+                mi formación universitaria en la URJC. Realizando el <b class="black">Grado
+              de Diseño Integral y Gestión de la Imagen.</b> Adquiriendo
+            mucha formación en relación a concepto de diseño y a conocimientos
+          técnicos de diferentes programas. Asignaturas como <b class="black">diseño
+          interactivo, retoque fotográfico y diseño de dispositivos</b> han formado
+          la base de mis habilidades actuales. En esta última, con Arduino, descubrí mi pasión por el desarrollo. Actualmente,
+        desarrollando el trabajo de final de grado. </p>
+              </article>
+              <article class="txt1">
+                <h6 class="titultext">U-TAD</h6>
+                <p class="parraf"> Para completementar el grado y aprender a desarrollar profesionalmente y de forma global. Decidí realizar <b class="black">Desarrollo
+              de Aplicaciones Multiplataforma </b>en la U-tad. Actualmente cursando el primer año del grado.</p>
+              </article>
+            </div>
+            <div class="pictures4">
+              <img id="skfoto3" src="imagenes/urjc.png" alt="urjc">
+              <img id="skfoto4" src="imagenes/utad.png" alt="utad">
+            </div>
+
+        </section>
+      <input id="buton3" type="radio" name="butons">
+        <section class="buton buton3">
+          <h3 class="titudere"><b>EXPERIENCIA</b>/EXPERIENCE</h3>
+          <div class="pictures3">
+            <article class="obras">
+              <h3 class="tituobras">ON CONSTRUCTION</h3>
+              <h3 class="tituobras" id="light">WORKING ON IT</h3>
+              <img id="ilustracionobras" src="imagenes/working.png" alt="obras">
+            </article>
+          </div>
+          <div class="circulo" id="circulo3">
+          </div>
+        </section>
+    </div>
+    </div>
   </main>
-<!--pie de página-->
-<footer>
-</footer>
+
 </body>
 </html>

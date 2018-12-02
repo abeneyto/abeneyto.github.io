@@ -1,0 +1,171 @@
+@font-face {
+font-family: roboto;
+src: url('fuentes/Roboto-Light.ttf');
+font-family: bebas;
+src: url('fuentes/BebasNeue-Regular.ttf');
+font-family: myrabold;
+src: url('fuentes/MyraLight.ttf');
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+html, body {
+width: 100%;
+height: 100%;
+background-image: url('imagenes/fondo.png');
+background-size: 100%;
+}
+a{
+  text-decoration: none;
+}
+* {
+font-family: roboto;
+margin: 0%;
+/*border: solid red 2px;
+box-sizing: border-box;*/
+}
+
+.cabeza{
+  width: 100%;
+  height: 13%;
+  display: flex;
+  margin-bottom: 2.5%;
+  background-image: url(imagenes/cajanav.png);
+  -webkit-box-shadow: 4px 4px 15px black;
+  /*background-image: linear-gradient(rgb(0,0,0), rgba(0,0,0,0.5));*/
+}
+.logo {
+  display: flex;
+  align-items: center;
+  width: 14%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.logofoto{
+  margin-top: 3%;
+  position: relative;
+  left: 23%;
+  width: 33%;
+  /*mix-blend-mode: overlay;*/
+}
+.nombre{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  position: relative;
+  left: 10%;
+  width: 20%;
+  text-align: center;
+  justify-content: center;
+}
+
+.nombretxt{
+  font-size: 16pt;
+  font-weight: 300;
+  color: grey;
+}
+#subnombre{
+font-size: 14pt;
+font-weight: 100;
+border-top-width: thin;
+border-top: solid grey 0.5;
+padding-top: 1%;
+}
+.enlaces{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 45%;
+  height: 100%;
+  background-size: 100% 100%;
+  position: relative;
+  left: 19%;
+}
+.picenlace{
+  width: 23%;
+  opacity: 0.4;
+  transition: 0.5s;
+  /*mix-blend-mode: overlay;*/
+}
+.picenlace:hover{
+  opacity: 1;
+-webkit-transform:scale(1.1);
+
+}
+#cuerpo{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.containergeneral{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  margin: 10%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  width: 80%;
+  height: 100%;
+}
+.cajas{
+  background-image: url(imagenes/caja.png);
+  background-size: 100% 100%;
+}
+#tituloweb{
+  font-family: roboto;
+  color: white;
+  font-size: 40pt;
+  font-weight: bold;
+  opacity: 0.8;
+  position: relative;
+  left: 48%;
+  top: 53%;
+}
+#caja1{
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 8;
+  grid-row-end: 10;
+}
+#caja2{
+  background-image: url(imagenes/cajared.png);
+grid-column-start: 4;
+grid-column-end: 6;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+#caja3{
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 8;
+}
+#caja4{
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+#caja5{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+#caja6{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9;
+
+}
+#caja7{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 8;
+}
+#caja8{
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 8;
+  grid-row-end: 11;
+}
