@@ -11,8 +11,9 @@ html, body {
 width: 100%;
 height: 100%;
 background-image: url('imagenes/fondo.png');
-background-size: 100%;
+background-size: auto;
 overflow: hidden;
+background-repeat: no-repeat;
 }
 a{
   text-decoration: none;
@@ -33,8 +34,9 @@ box-sizing: border-box;*/
   justify-content: center;
   width: 48%;
   height: 100%;
-  background-image: url(imagenes/fondosaludo2.jpg);
-background-size: 100%;
+  background-image: url(imagenes/esc1.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
   z-index: 100;
   position: absolute;
   transition: left 1s;
@@ -257,6 +259,7 @@ font-family: Roboto;
   overflow: hidden;
 }
 .trabajos{
+
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -353,13 +356,13 @@ b{
 
 .botons label { /*botones blancos*/
   position: relative;
-  top: 86%;
+  top: 90%;
   cursor: pointer; /* Cambio de cursor a tipo link */
   display: inline-block;
   width: 2%;
   height: 2.7%;
-  background: grey;
-  opacity: 0.2;
+  background: white;
+  opacity: 0.8;
   border-radius: 50%;
   margin: 1%;
 }
@@ -383,33 +386,7 @@ lo traemos alante*/
   z-index: 2;
   opacity: 1;
 }
-.circulo{
-  border-radius: 50%;
-  position: relative;
-  top: 70%;
-  cursor: pointer;
-  width: 1.9%;
-  height: 2.4%;
-  background: white;
-  opacity: 0.6;
-}
-#circulo1{
-position: relative;
-top: 83.65%;
-left: 36.6%;
-width: 2.1%;
-height: 2.75%;
-}
-#circulo2{
-position: relative;
-top: 75.25%;
-left: 41.35%;
-}
-#circulo3{
-position: relative;
-top: 75.25%;
-left: 45.8%;
-}
+
 
 .buton1 {
   position: absolute;
@@ -525,3 +502,83 @@ border: none;
     margin-top: 3%;
     width: 80%;
   }
+  @media screen and (max-width: 768px){
+header{
+display: none;
+}
+.secprincipal{
+position: relative;
+left: 4%;
+}
+.sec{
+  height: 40%;
+  width: 100%;
+}
+.sec1{
+  width: 100%;
+  height: 40%;
+  bottom: 10%;
+}
+  @media screen and (max-width: 992px){
+    header{
+    display: none;
+    }
+    .picenlace{
+    width: 56%;
+    }
+    .logofoto{
+      width: 64%;
+    }
+.nombre{
+  top: 25%;
+  left: 8%;
+}
+.nombretxt{
+  font-size: 15pt;
+}
+#subnombre{
+display: none;
+}
+.titulodesign{
+  font-size: 18pt;
+}
+.design{
+  font-size: 18pt;
+}
+.sec{
+  height: 40%;
+  width: 90%;
+}
+.sec1{
+  width: 90%;
+  height: 40%;
+  bottom: 10%;
+}
+.titudere{
+  font-size: 13pt;
+  bottom: 95%;
+}
+#work{
+  font-size: 13pt;
+  bottom: 97%;
+}
+.containertrabajos{
+  height: 70%;
+  top: 13%;
+}
+.skfoto{
+  width: 75%;
+}
+#skfoto1{
+width: 50%;
+}
+#skfoto2{
+  width: 50%;
+}
+.parraf{
+  font-size: 8pt;
+  display: none;
+}
+.tituobras{
+  font-size: 16pt;
+}

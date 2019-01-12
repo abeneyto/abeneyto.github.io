@@ -6,12 +6,11 @@ src: url('fuentes/BebasNeue-Regular.ttf');
 font-family: myrabold;
 src: url('fuentes/MyraLight.ttf');
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto:100');
 html, body {
 width: 100%;
 height: 100%;
 background-image: url('imagenes/fondo.png');
-background-size: 100%;
+background-size: auto;
 }
 a{
   text-decoration: none;
@@ -66,7 +65,7 @@ box-sizing: border-box;*/
 font-size: 14pt;
 font-weight: 100;
 border-top-width: thin;
-border-top: solid grey 0.5;
+border-top: solid grey 0.5px;
 padding-top: 1%;
 }
 .enlaces{
@@ -168,4 +167,41 @@ grid-row-end: 3;
   grid-column-end: 7;
   grid-row-start: 8;
   grid-row-end: 11;
+}
+@media screen and (max-width: 768px){
+  .picenlace{
+  width: 56%;
+  }
+  .logofoto{
+    width: 64%;
+  }
+.nombre{
+top: 25%;
+left: 8%;
+}
+.nombretxt{
+font-size: 15pt;
+}
+#subnombre{
+display: none;
+}
+@media screen and (max-width: 992px){
+  .picenlace{
+  width: 56%;
+  }
+  .logofoto{
+    width: 64%;
+  }
+.nombre{
+top: 25%;
+left: 8%;
+}
+.nombretxt{
+font-size: 15pt;
+}
+#subnombre{
+display: none;
+}
+#tituloweb{
+  font-size: 22pt;
 }
