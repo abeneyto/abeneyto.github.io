@@ -582,3 +582,6 @@ width: 50%;
 .tituobras{
   font-size: 16pt;
 }
+#cuerpo{
+filter: none;
+}
